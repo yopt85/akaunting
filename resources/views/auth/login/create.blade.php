@@ -45,8 +45,12 @@
             </div>
         </div>
 
+        <div class="mt-3">
+            <a href="auth/signin" class="text-white"><small class="" >Not registred? </small><small class="text-white"> Create an Account</small> </a>
+        </div>
+
         @stack('forgotten-password-start')
-            <div class="mt-5 mb--4">
+            <div class="mt-3 mb--4">
                 <a href="{{ route('forgot') }}" class="text-white"><small>{{ trans('auth.forgot_password') }}</small></a>
             </div>
         @stack('forgotten-password-end')
